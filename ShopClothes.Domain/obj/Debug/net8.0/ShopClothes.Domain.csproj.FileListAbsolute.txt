@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\bin\Debug\net8.0\ShopClothes.Domain.deps.json
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\bin\Debug\net8.0\ShopClothes.Domain.dll
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\bin\Debug\net8.0\ShopClothes.Domain.pdb
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.AssemblyInfo.cs
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.sourcelink.json
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.dll
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\refint\ShopClothes.Domain.dll
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ShopClothes.Domain.pdb
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Domain\obj\Debug\net8.0\ref\ShopClothes.Domain.dll

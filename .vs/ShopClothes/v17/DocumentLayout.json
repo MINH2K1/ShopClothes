@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\implemetation\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\implemetation\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\automapper\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\automapper\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\implemetation\\productcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\implemetation\\productcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73E6FF2-203E-4BE4-A2FC-AB290945D434}|ShopClothes.Infastructure\\ShopClothes.Infastructure.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.infastructure\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73E6FF2-203E-4BE4-A2FC-AB290945D434}|ShopClothes.Infastructure\\ShopClothes.Infastructure.csproj|solutionrelative:shopclothes.infastructure\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\implemetation\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\implemetation\\pageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53A8D623-EB60-43DC-9DDB-4A60E5F7F46C}|ShopClothes.Domain\\ShopClothes.Domain.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.domain\\entity\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53A8D623-EB60-43DC-9DDB-4A60E5F7F46C}|ShopClothes.Domain\\ShopClothes.Domain.csproj|solutionrelative:shopclothes.domain\\entity\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73E6FF2-203E-4BE4-A2FC-AB290945D434}|ShopClothes.Infastructure\\ShopClothes.Infastructure.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.infastructure\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73E6FF2-203E-4BE4-A2FC-AB290945D434}|ShopClothes.Infastructure\\ShopClothes.Infastructure.csproj|solutionrelative:shopclothes.infastructure\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\BillService.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Application\\Implemetation\\BillService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\BillService.cs",
+              "RelativeToolTip": "ShopClothes.Application\\Implemetation\\BillService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:38:41.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Program.cs",
+              "RelativeDocumentMoniker": "ShopClothes\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Program.cs",
+              "RelativeToolTip": "ShopClothes\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:27:08.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "RelativeToolTip": "ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:25:02.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Infastructure\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Infastructure\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Infastructure\\Interface\\IRepository.cs",
+              "RelativeToolTip": "ShopClothes.Infastructure\\Interface\\IRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:09:31.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\ProductCategoryService.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Application\\Implemetation\\ProductCategoryService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\ProductCategoryService.cs",
+              "RelativeToolTip": "ShopClothes.Application\\Implemetation\\ProductCategoryService.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAgwA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:06:33.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Domain\\Entity\\Page.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Domain\\Entity\\Page.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Domain\\Entity\\Page.cs",
+              "RelativeToolTip": "ShopClothes.Domain\\Entity\\Page.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T18:54:23.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\PageService.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Application\\Implemetation\\PageService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\PageService.cs",
+              "RelativeToolTip": "ShopClothes.Application\\Implemetation\\PageService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T18:48:21.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Infastructure\\Repository.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Infastructure\\Repository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Infastructure\\Repository.cs",
+              "RelativeToolTip": "ShopClothes.Infastructure\\Repository.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAADwv2EAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T18:29:50.896Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
