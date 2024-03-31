@@ -10,7 +10,6 @@ namespace ShopClothes.Application.ViewModel.Blog
     {
         public int BlogId { set; get; }
 
-
         public string TagId { set; get; }
     }
 }
