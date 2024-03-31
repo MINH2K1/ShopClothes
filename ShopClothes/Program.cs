@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using ShopClothes.Domain.Entity;
 using ShopClothes.Infastructure.DbContext;
+using ShopClothes.WebApp.Models.AccountViewModel;
+using ShopClothes.WebApp.Service;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +16,13 @@ builder.Services.AddDbContext<ShopClothesDbContext>(options =>
                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
                o => o.MigrationsAssembly("ShopClothes.Infastructure")));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 
+
+builder.Services.AddIdentity<AppUser, AppRole>()
+    .AddEntityFrameworkStores<ShopClothesDbContext>()
+    .AddDefaultTokenProviders();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 
 //builder.Services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
