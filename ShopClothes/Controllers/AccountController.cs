@@ -29,7 +29,7 @@ namespace ShopClothes.WebApp.Controllers
             _emailSender = emailSender;
             _logger = logger;
         }
-
+        //
         [HttpGet]
         [AllowAnonymous]
         [Route("register.html")]
@@ -118,5 +118,34 @@ namespace ShopClothes.WebApp.Controllers
         }
 
 
+        [HttpGet]
+        public IActionResult Login(string returnUrl = null)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                if (result.Succeeded)
+                {
+                    _logger.LogInformation("User logged in.");
+                    return RedirectToLocal(returnUrl);
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    return View(model);
+                }
+            }
+            return View(model);
+        }
+
+
+    
     }
-}
+    }
