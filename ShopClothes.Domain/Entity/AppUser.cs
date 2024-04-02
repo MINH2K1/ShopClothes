@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity;
-using ShopClothes.Domain.Enum;
+﻿using ShopClothes.Domain.Enum;
 using ShopClothes.Domain.Interface;
 using System;
 using System.Collections.Generic;
@@ -22,6 +20,10 @@ namespace ShopClothes.Domain.Entity
         public decimal Balance { get; set; }
 
         public string Avatar { get; set; }
+
+        public string RefreshToken { get; set; }
+        public string Token { get; set; }
+        public DateTime RefreshTokenExpiry { get; set; }
 
         public DateTime DateCreated { get; set; }
         public DateTime DateModified { get; set; }
