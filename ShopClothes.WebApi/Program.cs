@@ -46,6 +46,8 @@ builder.Services.AddTransient<IFeedbackService, FeedbackService>();
 builder.Services.AddTransient<IContactService, ContactService>();
 builder.Services.AddTransient<IPageService, PageService>();
 builder.Services.AddTransient<IAnnouncementService, AnnouncementService>();
+
+
 builder.Services.AddSignalR();
 builder.Services.AddAuthentication(options =>
 {

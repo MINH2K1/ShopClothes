@@ -685,25 +685,6 @@ namespace ShopClothes.Infastructure.Migrations
                     b.Property<decimal?>("PromotionPrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("SeoAlias")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("SeoDescription")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("SeoKeywords")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("SeoPageTitle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -761,22 +742,6 @@ namespace ShopClothes.Infastructure.Migrations
 
                     b.Property<int?>("ParentId")
                         .HasColumnType("int");
-
-                    b.Property<string>("SeoAlias")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SeoDescription")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SeoKeywords")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SeoPageTitle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("SortOrder")
                         .HasColumnType("int");
@@ -943,41 +908,6 @@ namespace ShopClothes.Infastructure.Migrations
                     b.ToTable("Slides");
                 });
 
-            modelBuilder.Entity("ShopClothes.Domain.Entity.SystemConfig", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Value1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("Value2")
-                        .HasColumnType("int");
-
-                    b.Property<bool?>("Value3")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("Value4")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal?>("Value5")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("SystemConfigs");
-                });
-
             modelBuilder.Entity("ShopClothes.Domain.Entity.Tag", b =>
                 {
                     b.Property<string>("Id")
@@ -1126,7 +1056,7 @@ namespace ShopClothes.Infastructure.Migrations
             modelBuilder.Entity("ShopClothes.Domain.Entity.ProductImage", b =>
                 {
                     b.HasOne("ShopClothes.Domain.Entity.Product", "Product")
-                        .WithMany()
+                        .WithMany("ProductImages")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -1208,6 +1138,8 @@ namespace ShopClothes.Infastructure.Migrations
 
             modelBuilder.Entity("ShopClothes.Domain.Entity.Product", b =>
                 {
+                    b.Navigation("ProductImages");
+
                     b.Navigation("ProductTags");
                 });
 

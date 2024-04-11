@@ -126,12 +126,7 @@ namespace ShopClothes.Domain.Test
             Assert.NotNull(menu);
         }
         [Fact]
-        public void SystemConfig_NotNull_Noparagram()
-        {
-            var menu = new SystemConfig();
-            Assert.NotNull(menu);
-        }
-        [Fact]
+      
         public void Page_NotNull_Noparagram()
         {
             var menu = new Page();

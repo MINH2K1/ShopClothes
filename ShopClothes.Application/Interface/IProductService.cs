@@ -1,4 +1,5 @@
-﻿using ShopClothes.Application.ViewModel.Common;
+﻿using Microsoft.AspNetCore.Http;
+using ShopClothes.Application.ViewModel.Common;
 using ShopClothes.Application.ViewModel.Product;
 using ShopClothes.Infastructure.Dto;
 using System;
@@ -11,21 +12,23 @@ namespace ShopClothes.Application.Interface
 {
     public interface IProductService : IDisposable
     {
-
-        PagedResult<ProductViewModel> GetAllPaging(int? categoryId, string keyword, int page, int pageSize);
+      
+        void AddImages(int productId, List<string> images);
+        void AddQuantity(int productId, List<ProductQuantityViewModel> quantities);
 
         void Update(ProductViewModel product);
 
         void Delete(int id);
 
-        ProductViewModel GetById(int id);
+        Task AddProduct(ProductViewModel productVm, List<IFormFile> file);
 
         void ImportExcel(string filePath, int categoryId);
 
 
         void Save();
 
-        void AddQuantity(int productId, List<ProductQuantityViewModel> quantities);
+
+        ProductViewModel GetById(int id);
 
         List<ProductQuantityViewModel> GetQuantities(int productId);
 
@@ -43,8 +46,11 @@ namespace ShopClothes.Application.Interface
         List<ProductViewModel> GetUpsellProducts(int top);
 
         List<TagViewModel> GetProductTags(int productId);
-
         bool CheckAvailability(int productId, int size, int color);
+        List<ProductViewModel> GetAll();
 
+        PagedResult<ProductViewModel> GetAllPaging(int? categoryId, string keyword, int page, int pageSize);
+
+        ProductViewModel Add(ProductViewModel product);
     }
     }

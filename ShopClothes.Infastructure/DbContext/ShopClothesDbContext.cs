@@ -72,9 +72,7 @@ namespace ShopClothes.Infastructure.DbContext
                 .Property(p => p.PromotionPrice)
                 .HasColumnType("decimal(18,2)");
 
-            builder.Entity<SystemConfig>()
-                .Property(s => s.Value5)
-                .HasColumnType("decimal(18,2)");
+         
 
             builder.Entity<WholePrice>()
                 .Property(w => w.Price)
@@ -104,7 +102,7 @@ namespace ShopClothes.Infastructure.DbContext
             builder.AddConfiguration(new PageConfiguration());
             builder.AddConfiguration(new FooterConfiguration());
             builder.AddConfiguration(new ProductTagConfiguration());
-            builder.AddConfiguration(new SystemConfigConfiguration());
+          
         
         }
 

@@ -11,6 +11,6 @@ namespace ShopClothes.Application.Interface
     {
         FooterViewModel GetFooter();
         List<SlideViewModel> GetSlides(string groupAlias);
-        SystemConfigViewModel GetSystemConfig(string code);
+        
     }
 }

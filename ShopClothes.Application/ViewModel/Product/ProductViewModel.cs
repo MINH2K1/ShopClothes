@@ -41,10 +41,10 @@ namespace ShopClothes.Application.ViewModel.Product
 
         public bool? HotFlag { get; set; }
 
-        public int? ViewCount { get; set; }
+        public int? ViewCount { get; set; } = 0;
 
         [StringLength(255)]
-        public string Tags { get; set; }
+        public string Tags { get; set; } 
 
         [StringLength(255)]
         public string Unit { get; set; }
