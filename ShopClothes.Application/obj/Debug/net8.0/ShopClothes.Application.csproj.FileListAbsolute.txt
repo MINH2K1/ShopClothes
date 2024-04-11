@@ -3,8 +3,10 @@ C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Application.pdb
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Domain.dll
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Infastructure.dll
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Utilities.dll
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Domain.pdb
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Infastructure.pdb
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Utilities.pdb
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\obj\Debug\net8.0\ShopClothes.Application.csproj.AssemblyReference.cache
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\obj\Debug\net8.0\ShopClothes.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\obj\Debug\net8.0\ShopClothes.Application.AssemblyInfoInputs.cache
@@ -16,5 +18,3 @@ C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\obj\Debug\
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\obj\Debug\net8.0\refint\ShopClothes.Application.dll
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\obj\Debug\net8.0\ShopClothes.Application.pdb
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\obj\Debug\net8.0\ref\ShopClothes.Application.dll
-C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Utilities.dll
-C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Application\bin\Debug\net8.0\ShopClothes.Utilities.pdb

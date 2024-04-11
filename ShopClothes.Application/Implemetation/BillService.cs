@@ -52,6 +52,7 @@ namespace ShopClothes.Application.Implemetation
             }
             order.BillDetails = orderDetails;
             _orderRepository.Add(order);
+           
         }
 
         public void Update(BillViewModel billVm)
@@ -91,6 +92,7 @@ namespace ShopClothes.Application.Implemetation
             _orderDetailRepository.RemoveMultiple(existedDetails.Except(updatedDetails).ToList());
 
             _orderRepository.Update(order);
+         
         }
 
         public void UpdateStatus(int billId, BillStatus status)
@@ -98,6 +100,7 @@ namespace ShopClothes.Application.Implemetation
             var order = _orderRepository.FindById(billId);
             order.BillStatus = status;
             _orderRepository.Update(order);
+         
         }
 
         public async Task<List<SizeViewModel>> GetSizes()

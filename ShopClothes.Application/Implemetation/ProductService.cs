@@ -157,9 +157,9 @@ namespace ShopClothes.Application.Implemetation
 
         }
 
-        public PagedResult<ProductViewModel> GetAllPaging(int? categoryId, string keyword, int page, int pageSize)
+        public async Task<PagedResult<ProductViewModel>> GetAllPaging(int? categoryId, string keyword, int page, int pageSize)
         {
-            var query = _productRepository.FindAll(x => x.Status == Status.Active);
+            var query =  await _productRepository.FindAllAsync(x => x.Status == Status.Active);
             if (!string.IsNullOrEmpty(keyword))
                 query = query.Where(x => x.Name.Contains(keyword));
             if (categoryId.HasValue)
@@ -170,7 +170,7 @@ namespace ShopClothes.Application.Implemetation
             query = query.OrderByDescending(x => x.DateCreated)
                 .Skip((page - 1) * pageSize).Take(pageSize);
 
-            var data = _mapper.Map<List<ProductViewModel>>(query).ToList();
+            var data = _mapper.Map<List<ProductViewModel>>(query);
             var paginationSet = new PagedResult<ProductViewModel>()
             {
                 Results = data,
@@ -325,6 +325,11 @@ namespace ShopClothes.Application.Implemetation
                     productTags.Add(productTag);
                 }
             }
+        }
+
+        PagedResult<ProductViewModel> IProductService.GetAllPaging(int? categoryId, string keyword, int page, int pageSize)
+        {
+            throw new NotImplementedException();
         }
     }
 }

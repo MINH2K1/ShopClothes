@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "Fvs603fbku7KawUqZmZ3yXJ0EyZpXknEpb6HAjSesqA=",
+  "Source": "ShopClothes.WebApi",
+  "BasePath": "_content/ShopClothes.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ShopClothes.WebApi\\wwwroot",
+      "Source": "ShopClothes.WebApi",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\wwwroot\\",
+      "BasePath": "_content/ShopClothes.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\wwwroot\\js\\signalR\\dist\\browser\\signalr.js",
+      "SourceId": "ShopClothes.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\wwwroot\\",
+      "BasePath": "_content/ShopClothes.WebApi",
+      "RelativePath": "js/signalR/dist/browser/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalR\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\wwwroot\\js\\signalR\\dist\\browser\\signalr.min.js",
+      "SourceId": "ShopClothes.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\wwwroot\\",
+      "BasePath": "_content/ShopClothes.WebApi",
+      "RelativePath": "js/signalR/dist/browser/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalR\\dist\\browser\\signalr.min.js"
+    }
+  ]
+}
