@@ -12,7 +12,15 @@ namespace ShopClothes.Domain.Entity
     [Table("AppRoles")]
     public class AppRole : IdentityRole<Guid>
     {
+        public AppRole()
+        {
+
+        }
+        public AppRole(string name)
+        {
+            Name = name;
+        }
         [MaxLength(250)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
     }
 }

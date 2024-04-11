@@ -23,7 +23,7 @@ namespace ShopClothes.Infastructure.DbContext
         }
         public DbSet<Language> Languages { set; get; }
         public DbSet<SystemConfig> SystemConfigs { get; set; }
-        public DbSet<Function> Functions { get; set; }
+      
 
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<AppRole> AppRoles { get; set; }
@@ -49,7 +49,7 @@ namespace ShopClothes.Infastructure.DbContext
 
         public DbSet<Tag> Tags { set; get; }
 
-        public DbSet<Permission> Permissions { get; set; }
+   
         public DbSet<WholePrice> WholePrices { get; set; }
 
 
@@ -109,7 +109,7 @@ namespace ShopClothes.Infastructure.DbContext
             builder.AddConfiguration(new FooterConfiguration());
             builder.AddConfiguration(new ProductTagConfiguration());
             builder.AddConfiguration(new SystemConfigConfiguration());
-            builder.AddConfiguration(new FunctionConfiguration());
+        
         }
 
 

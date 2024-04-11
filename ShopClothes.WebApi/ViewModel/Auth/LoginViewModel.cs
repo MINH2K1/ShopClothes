@@ -1,8 +1,17 @@
-﻿namespace ShopClothes.WebApi.ViewModel.Auth
+﻿using ShopClothes.WebApi.Extention;
+using System.ComponentModel.DataAnnotations;
+
+namespace ShopClothes.WebApi.ViewModel.Auth
 {
     public class LoginViewModel
     {
+        [EmailAddress]
+        [Required]
+       
         public string Email { get; set; }
+        [DataType(DataType.Password)]
+        [Required]
+        
         public string Password { get; set; }
         public bool RememberMe { get; set; }
     }

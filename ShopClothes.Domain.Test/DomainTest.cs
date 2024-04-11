@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-using Function = ShopClothes.Domain.Entity.Function;
+
 
 namespace ShopClothes.Domain.Test
 {
@@ -47,12 +47,8 @@ namespace ShopClothes.Domain.Test
             var footer = new Footer();
             Assert.NotNull(footer);
         }
-        [Fact]
-        public void Function_NotNull_Noparagram()
-        {
-            var function = new Function();
-            Assert.NotNull(function);
-        }
+      
+      
         [Fact]
         public void Bill_NotNull_Noparagram()
         {
@@ -101,12 +97,8 @@ namespace ShopClothes.Domain.Test
             var menu = new Tag();
             Assert.NotNull(menu);
         }
-        [Fact]
-        public void Funtion_NotNull_Noparagram()
-        {
-            var menu = new Function();
-            Assert.NotNull(menu);
-        }
+       
+    
         [Fact]
 
         public void Product_NotNull_Noparagram()

@@ -28,9 +28,6 @@ namespace ShopClothes.Application.Interface
 
         List<ProductCategoryViewModel> GetHomeCategories(int top);
 
-
-
-
         void Save();
     }
 }
