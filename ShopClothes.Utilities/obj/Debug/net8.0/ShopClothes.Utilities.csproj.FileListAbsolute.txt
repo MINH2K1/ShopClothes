@@ -10,3 +10,4 @@ C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Utilities\obj\Debug\ne
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Utilities\obj\Debug\net8.0\refint\ShopClothes.Utilities.dll
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Utilities\obj\Debug\net8.0\ShopClothes.Utilities.pdb
 C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Utilities\obj\Debug\net8.0\ref\ShopClothes.Utilities.dll
+C:\Users\Admin\Desktop\MessageApp\ShopClothes\ShopClothes.Utilities\obj\Debug\net8.0\ShopClothes.Utilities.csproj.AssemblyReference.cache

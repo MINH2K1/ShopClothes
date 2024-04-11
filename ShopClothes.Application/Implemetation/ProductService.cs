@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Microsoft.AspNetCore.Http;
 using OfficeOpenXml;
 using ShopClothes.Application.Interface;
 using ShopClothes.Application.ViewModel.Common;
@@ -87,9 +88,10 @@ namespace ShopClothes.Application.Implemetation
             return productVm;
         }
 
-        public void AddImages(int productId, string[] images)
+        public void AddImages(int productId, List<string> images)
         {
             _productImageRepository.RemoveMultiple(_productImageRepository.FindAll(x => x.ProductId == productId).ToList());
+          
             foreach (var image in images)
             {
                 _productImageRepository.Add(new ProductImage()
@@ -115,6 +117,42 @@ namespace ShopClothes.Application.Implemetation
                 });
             }
         }
+
+        public async Task AddProduct(ProductViewModel productVm, List<IFormFile> files)
+        {
+            var product = _mapper.Map<ProductViewModel, Product>(productVm);
+            product.DateCreated = DateTime.Now;
+            
+            if (files.Count > 0)
+            {
+                foreach (var file in files)
+                {
+                    var productImage = new ProductImage()
+                    {
+                        Caption = file.FileName,
+                        Path = UploadFile(file)
+                    };
+                    product.ProductImages.Add(productImage);
+                }
+            }
+            _productRepository.Add(product);
+        }
+
+        private string UploadFile (IFormFile file)
+        {
+            if (file.Length > 0)
+            {
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                var filePath = Path.Combine("wwwroot/images", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                }
+                return fileName;
+            }
+            return null;
+        }
+
 
         public void AddWholePrice(int productId, List<WholePriceViewModel> wholePrices)
         {
@@ -254,45 +292,43 @@ namespace ShopClothes.Application.Implemetation
             return _mapper.Map<List<WholePriceViewModel>>(result).ToList();
         }
 
-        public void ImportExcel(string filePath, int categoryId)
-        {
-            using (var package = new ExcelPackage(new FileInfo(filePath)))
-            {
-                ExcelWorksheet workSheet = package.Workbook.Worksheets[1];
-                Product product;
-                for (int i = workSheet.Dimension.Start.Row + 1; i <= workSheet.Dimension.End.Row; i++)
-                {
-                    product = new Product();
-                    product.CategoryId = categoryId;
+        //public void ImportExcel(string filePath, int categoryId)
+        //{
+        //    using (var package = new ExcelPackage(new FileInfo(filePath)))
+        //    {
+        //        ExcelWorksheet workSheet = package.Workbook.Worksheets[1];
+        //        Product product;
+        //        for (int i = workSheet.Dimension.Start.Row + 1; i <= workSheet.Dimension.End.Row; i++)
+        //        {
+        //            product = new Product();
+        //            product.CategoryId = categoryId;
 
-                    product.Name = workSheet.Cells[i, 1].Value.ToString();
+        //            product.Name = workSheet.Cells[i, 1].Value.ToString();
 
-                    product.Description = workSheet.Cells[i, 2].Value.ToString();
+        //            product.Description = workSheet.Cells[i, 2].Value.ToString();
 
-                    decimal.TryParse(workSheet.Cells[i, 3].Value.ToString(), out var originalPrice);
-                    product.OriginalPrice = originalPrice;
+        //            decimal.TryParse(workSheet.Cells[i, 3].Value.ToString(), out var originalPrice);
+        //            product.OriginalPrice = originalPrice;
 
-                    decimal.TryParse(workSheet.Cells[i, 4].Value.ToString(), out var price);
-                    product.Price = price;
-                    decimal.TryParse(workSheet.Cells[i, 5].Value.ToString(), out var promotionPrice);
+        //            decimal.TryParse(workSheet.Cells[i, 4].Value.ToString(), out var price);
+        //            product.Price = price;
+        //            decimal.TryParse(workSheet.Cells[i, 5].Value.ToString(), out var promotionPrice);
 
-                    product.PromotionPrice = promotionPrice;
-                    product.Content = workSheet.Cells[i, 6].Value.ToString();
-                    product.SeoKeywords = workSheet.Cells[i, 7].Value.ToString();
+        //            product.PromotionPrice = promotionPrice;
+                  
 
-                    product.SeoDescription = workSheet.Cells[i, 8].Value.ToString();
-                    bool.TryParse(workSheet.Cells[i, 9].Value.ToString(), out var hotFlag);
+                  
 
-                    product.HotFlag = hotFlag;
-                    bool.TryParse(workSheet.Cells[i, 10].Value.ToString(), out var homeFlag);
-                    product.HomeFlag = homeFlag;
+        //            product.HotFlag = hotFlag;
+        //            bool.TryParse(workSheet.Cells[i, 10].Value.ToString(), out var homeFlag);
+        //            product.HomeFlag = homeFlag;
 
-                    product.Status = Status.Active;
+        //            product.Status = Status.Active;
 
-                    _productRepository.Add(product);
-                }
-            }
-        }
+        //            _productRepository.Add(product);
+        //        }
+        //    }
+        //}
 
         public void Save()
         {
@@ -328,6 +364,11 @@ namespace ShopClothes.Application.Implemetation
         }
 
         PagedResult<ProductViewModel> IProductService.GetAllPaging(int? categoryId, string keyword, int page, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ImportExcel(string filePath, int categoryId)
         {
             throw new NotImplementedException();
         }

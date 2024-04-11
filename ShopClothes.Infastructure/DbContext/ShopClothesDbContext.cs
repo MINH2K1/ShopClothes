@@ -22,14 +22,10 @@ namespace ShopClothes.Infastructure.DbContext
         {
         }
         public DbSet<Language> Languages { set; get; }
-        public DbSet<SystemConfig> SystemConfigs { get; set; }
-      
-
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<AppRole> AppRoles { get; set; }
         public DbSet<Announcement> Announcements { set; get; }
         public DbSet<AnnouncementUser> AnnouncementUsers { set; get; }
-
         public DbSet<Blog> Bills { set; get; }
         public DbSet<BillDetail> BillDetails { set; get; }
         public DbSet<Blog> Blogs { set; get; }
@@ -76,9 +72,7 @@ namespace ShopClothes.Infastructure.DbContext
                 .Property(p => p.PromotionPrice)
                 .HasColumnType("decimal(18,2)");
 
-            builder.Entity<SystemConfig>()
-                .Property(s => s.Value5)
-                .HasColumnType("decimal(18,2)");
+         
 
             builder.Entity<WholePrice>()
                 .Property(w => w.Price)
@@ -108,7 +102,7 @@ namespace ShopClothes.Infastructure.DbContext
             builder.AddConfiguration(new PageConfiguration());
             builder.AddConfiguration(new FooterConfiguration());
             builder.AddConfiguration(new ProductTagConfiguration());
-            builder.AddConfiguration(new SystemConfigConfiguration());
+          
         
         }
 

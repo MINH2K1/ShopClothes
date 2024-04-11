@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace ShopClothes.Domain.Entity
 {
     [Table("Blogs")]
-    public class Blog : DomainEntity<int>, ISwitchable, IDateTracking, IHasSeoMetaData
+    public class Blog : DomainEntity<int>, ISwitchable, IDateTracking
     {
 
         [Required]

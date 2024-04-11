@@ -13,14 +13,46 @@ namespace ShopClothes.WebApi.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IProductService _productService;
+       
         private readonly IProductCategoryService _productCategoryService;
       //  private readonly IHostingEnvironment _hostingEnvironment;
-        public ProductController(IUnitOfWork unitOfWork, IProductService productService)
+        public ProductController(IUnitOfWork unitOfWork, IProductService productService
+                                
+            )
         {
             _unitOfWork = unitOfWork;
             _productService = productService;
-
+          
         }
+
+        [HttpPost("AddProduct")]
+        public async Task<IActionResult> AddProduct([FromBody] ProductViewModel productVm, List<IFormFile> files)
+        {         
+            await  _productService.AddProduct(productVm,files);     
+                _productService.Save();
+                return new OkObjectResult(productVm);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -75,9 +107,9 @@ namespace ShopClothes.WebApi.Controllers
             return new OkObjectResult(quantities);
         }
         [HttpPost]
-        public IActionResult SaveImages(int productId, string[] images)
+        public IActionResult SaveImages(int productId, List<string> images)
         {
-            _productService.AddImages(productId, images);
+          //  _productService.AddImages(productId,List<string> images);
             _productService.Save();
             return new OkObjectResult(images);
         }

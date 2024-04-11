@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ShopClothes.Domain.Entity
 {
     public class ProductCategory : DomainEntity<int>,
-        IHasSeoMetaData, ISwitchable, ISortable, IDateTracking
+      ISwitchable, ISortable, IDateTracking
     {
         public string Name { get; set; }
 
@@ -27,11 +27,7 @@ namespace ShopClothes.Domain.Entity
         public DateTime DateModified { set; get; }
         public int SortOrder { set; get; }
         public Status Status { set; get; }
-        public string SeoPageTitle { set; get; }
-        public string SeoAlias { set; get; }
-        public string SeoKeywords { set; get; }
-        public string SeoDescription { set; get; }
-
+    
         public virtual ICollection<Product> Products { set; get; }
       
     }

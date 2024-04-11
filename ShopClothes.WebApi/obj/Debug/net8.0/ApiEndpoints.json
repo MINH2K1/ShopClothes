@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "ShopClothes.WebApi.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productVm",
+        "Type": "ShopClothes.Application.ViewModel.Product.ProductViewModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ShopClothes.WebApi.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/Login",
@@ -71,16 +92,6 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   }
 ]

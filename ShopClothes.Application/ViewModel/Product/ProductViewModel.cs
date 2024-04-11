@@ -41,27 +41,15 @@ namespace ShopClothes.Application.ViewModel.Product
 
         public bool? HotFlag { get; set; }
 
-        public int? ViewCount { get; set; }
+        public int? ViewCount { get; set; } = 0;
 
         [StringLength(255)]
-        public string Tags { get; set; }
+        public string Tags { get; set; } 
 
         [StringLength(255)]
         public string Unit { get; set; }
 
         public ProductCategoryViewModel ProductCategory { set; get; }
-
-        public string SeoPageTitle { set; get; }
-
-        [StringLength(255)]
-        public string SeoAlias { set; get; }
-
-        [StringLength(255)]
-        public string SeoKeywords { set; get; }
-
-        [StringLength(255)]
-        public string SeoDescription { set; get; }
-
         public DateTime DateCreated { set; get; }
         public DateTime DateModified { set; get; }
 

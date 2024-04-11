@@ -12,7 +12,7 @@ using ShopClothes.Domain.Enum;
 namespace ShopClothes.Domain.Entity
 {
     [Table("Products")]
-    public class Product : DomainEntity<int>, ISwitchable, IDateTracking, IHasSeoMetaData
+    public class Product : DomainEntity<int>, ISwitchable, IDateTracking
     {
         [MaxLength(255)]
         [Required]
@@ -55,20 +55,10 @@ namespace ShopClothes.Domain.Entity
 
         public virtual ICollection<ProductTag> ProductTags { set; get; }
 
-        public string SeoPageTitle { set; get; }
-
-        [MaxLength(255)]
-        public string SeoAlias { set; get; }
-
-        [MaxLength(255)]
-        public string SeoKeywords { set; get; }
-
-        [MaxLength(255)]
-        public string SeoDescription { set; get; }
-
+        public List <ProductImage> ProductImages{get; set;}
         public DateTime DateCreated { set; get; }
         public DateTime DateModified { set; get; }
 
-        public Status Status { set; get; }
+        public Status Status { set; get; } = Status.Active;
     }
 }
