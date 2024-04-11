@@ -13,20 +13,21 @@ namespace ShopClothes.Domain.Entity
     [Table("AppUsers")]
     public class AppUser : IdentityUser<Guid>, IDateTracking, ISwitchable
     {
-        public string FullName { get; set; }
+       
+        public string ?FullName { get; set; }
 
         public DateTime? BirthDay { set; get; }
 
         public decimal Balance { get; set; }
 
-        public string Avatar { get; set; }
+        public string ?Avatar { get; set; }
 
-        public string RefreshToken { get; set; }
-        public string Token { get; set; }
+        public string ?RefreshToken { get; set; }
+        public string ?Token { get; set; }
         public DateTime RefreshTokenExpiry { get; set; }
 
-        public DateTime DateCreated { get; set; }
-        public DateTime DateModified { get; set; }
-        public Status Status { get; set; }
+        public DateTime DateCreated { get; set; } = DateTime.Now;
+        public DateTime DateModified { get; set; }= DateTime.Now;
+        public Status Status { get; set; }=Status.Active;
     }
 }

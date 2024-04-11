@@ -24,11 +24,5 @@ namespace ShopClothes.Application.Interface
 
 
         Task UpdateAsync(AppRoleViewModel userVm);
-
-        List<PermissionViewModel> GetListFunctionWithRole(Guid roleId);
-
-        void SavePermission(List<PermissionViewModel> permissions, Guid roleId);
-
-        Task<bool> CheckPermission(int functionId, string action, string[] roles);
     }
 }

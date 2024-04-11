@@ -2,7 +2,7 @@
   {
     "ContainingType": "ShopClothes.WebApi.Controllers.AccountController",
     "Method": "Login",
-    "RelativePath": "api/Account",
+    "RelativePath": "api/Account/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -13,49 +13,13 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ShopClothes.WebApi.ViewModel.Response",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ShopClothes.WebApi.Controllers.AccountController",
-    "Method": "RefreshToken",
-    "RelativePath": "api/Account",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "ShopClothes.WebApi.ViewModel.Auth.RefreshTokenModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ShopClothes.WebApi.ViewModel.Auth.LoginResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ShopClothes.WebApi.Controllers.AccountController",
     "Method": "Logout",
-    "RelativePath": "api/Account",
-    "HttpMethod": "",
+    "RelativePath": "api/Account/Logout",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -68,16 +32,48 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ShopClothes.WebApi.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "ShopClothes.WebApi.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ShopClothes.WebApi.ViewModel.Auth.RegisterViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopClothes.WebApi.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "api/Home/index.html",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopClothes.WebApi.Controllers.UploadController",
+    "Method": "UploadImage",
+    "RelativePath": "UploadImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ShopClothes.WebApi.WeatherForecast, ShopClothes.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",

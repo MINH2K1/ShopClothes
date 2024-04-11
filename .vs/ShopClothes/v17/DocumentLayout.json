@@ -3,168 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\twofactorauthenticationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\twofactorauthenticationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\setpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\setpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\removeloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\removeloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\generaterecoverycodesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\generaterecoverycodesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\externalloginsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\externalloginsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\enableauthenticatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\enableauthenticatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\manageviewmodel\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\manageviewmodel\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\extension\\emailsenderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\extension\\emailsenderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\productviewmodels\\searchresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\productviewmodels\\searchresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\productviewmodels\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\productviewmodels\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\productviewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\productviewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F73E6FF2-203E-4BE4-A2FC-AB290945D434}|ShopClothes.Infastructure\\ShopClothes.Infastructure.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.infastructure\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F73E6FF2-203E-4BE4-A2FC-AB290945D434}|ShopClothes.Infastructure\\ShopClothes.Infastructure.csproj|solutionrelative:shopclothes.infastructure\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\automapper\\domaintoviewmodelmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\automapper\\domaintoviewmodelmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\automapper\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\automapper\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\externalloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\externalloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\loginwithrecoverycodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\loginwithrecoverycodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\reserpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\reserpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\loginwith2faviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\loginwith2faviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\viewmodel\\auth\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\viewmodel\\auth\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\viewmodel\\auth\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\viewmodel\\auth\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\viewmodel\\auth\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\viewmodel\\auth\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53A8D623-EB60-43DC-9DDB-4A60E5F7F46C}|ShopClothes.Domain\\ShopClothes.Domain.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.domain\\entity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53A8D623-EB60-43DC-9DDB-4A60E5F7F46C}|ShopClothes.Domain\\ShopClothes.Domain.csproj|solutionrelative:shopclothes.domain\\entity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\viewmodel\\auth\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\viewmodel\\auth\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.webapi\\viewmodel\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EACD164-1F27-47AB-ABF1-52AED36B238E}|ShopClothes.WebApi\\ShopClothes.WebApi.csproj|solutionrelative:shopclothes.webapi\\viewmodel\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\service\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\service\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\implemetation\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\implemetation\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\implemetation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\implemetation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\implemetation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\implemetation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes\\models\\accountviewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5BAD4AB-624C-4B6B-B577-BE2014BCCD44}|ShopClothes\\ShopClothes.WebApp.csproj|solutionrelative:shopclothes\\models\\accountviewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|c:\\users\\admin\\desktop\\messageapp\\shopclothes\\shopclothes.application\\implemetation\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B13DF57-5DD0-4CB0-B174-7EC7C8DCB49A}|ShopClothes.Application\\ShopClothes.Application.csproj|solutionrelative:shopclothes.application\\implemetation\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,496 +46,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TwoFactorAuthenticationViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\TwoFactorAuthenticationViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\TwoFactorAuthenticationViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\TwoFactorAuthenticationViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\TwoFactorAuthenticationViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:43:31.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SetPasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\SetPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\SetPasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\SetPasswordViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\SetPasswordViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:43:05.763Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RemoveLoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\RemoveLoginViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\RemoveLoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\RemoveLoginViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\RemoveLoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:42:37.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\IndexViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\IndexViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\IndexViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\IndexViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:41:53.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenerateRecoveryCodesViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\GenerateRecoveryCodesViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\GenerateRecoveryCodesViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\GenerateRecoveryCodesViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\GenerateRecoveryCodesViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:41:30.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExternalLoginsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\ExternalLoginsViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\ExternalLoginsViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\ExternalLoginsViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\ExternalLoginsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:41:01.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnableAuthenticatorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\EnableAuthenticatorViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\EnableAuthenticatorViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\EnableAuthenticatorViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\EnableAuthenticatorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:40:34.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChangePasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\ChangePasswordViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ManageViewModel\\ChangePasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ManageViewModel\\ChangePasswordViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ManageViewModel\\ChangePasswordViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:39:39.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SearchResultViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ProductViewModels\\SearchResultViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ProductViewModels\\SearchResultViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ProductViewModels\\SearchResultViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ProductViewModels\\SearchResultViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:34:36.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DetailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ProductViewModels\\DetailViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ProductViewModels\\DetailViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ProductViewModels\\DetailViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ProductViewModels\\DetailViewModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:34:34.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UploadController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Controllers\\UploadController.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Controllers\\UploadController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Controllers\\UploadController.cs",
-              "RelativeToolTip": "ShopClothes\\Controllers\\UploadController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:59:27.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ShopClothes\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:14:28.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailSenderExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Extension\\EmailSenderExtension.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Extension\\EmailSenderExtension.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Extension\\EmailSenderExtension.cs",
-              "RelativeToolTip": "ShopClothes\\Extension\\EmailSenderExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:55:12.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Infastructure\\Repository.cs",
-              "RelativeDocumentMoniker": "ShopClothes.Infastructure\\Repository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Infastructure\\Repository.cs",
-              "RelativeToolTip": "ShopClothes.Infastructure\\Repository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:30:46.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ShopClothes\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA9wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:14:35.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CatalogViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ProductViewModels\\CatalogViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\ProductViewModels\\CatalogViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\ProductViewModels\\CatalogViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\ProductViewModels\\CatalogViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:48:29.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "DomainToViewModelMapping.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\AutoMapper\\DomainToViewModelMapping.cs",
               "RelativeDocumentMoniker": "ShopClothes.Application\\AutoMapper\\DomainToViewModelMapping.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\AutoMapper\\DomainToViewModelMapping.cs",
               "RelativeToolTip": "ShopClothes.Application\\AutoMapper\\DomainToViewModelMapping.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:30:36.808Z"
+              "WhenOpened": "2024-04-11T06:11:16.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AutoMapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
-              "RelativeDocumentMoniker": "ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
-              "RelativeToolTip": "ShopClothes.Application\\AutoMapper\\AutoMapperConfig.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "ShopClothes.WebApi\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "ShopClothes.WebApi\\Controllers\\UploadController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:30:34.905Z"
+              "WhenOpened": "2024-04-11T06:02:11.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EmailSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\EmailSettings.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\EmailSettings.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\EmailSettings.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\EmailSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ShopClothes.WebApi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ShopClothes.WebApi\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:35:55.095Z"
+              "WhenOpened": "2024-04-11T06:01:46.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ExternalLoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\ExternalLoginViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\ExternalLoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\ExternalLoginViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\ExternalLoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "DocumentIndex": 6,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\BillService.cs",
+              "RelativeDocumentMoniker": "ShopClothes.Application\\Implemetation\\BillService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\BillService.cs",
+              "RelativeToolTip": "ShopClothes.Application\\Implemetation\\BillService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:54:25.732Z"
+              "WhenOpened": "2024-04-11T05:52:36.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginWithRecoveryCodeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\LoginWithRecoveryCodeViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\LoginWithRecoveryCodeViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\LoginWithRecoveryCodeViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\LoginWithRecoveryCodeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:46:59.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 5,
               "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\RegisterViewModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ShopClothes.WebApi\\ViewModel\\Auth\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\RegisterViewModel.cs",
+              "RelativeToolTip": "ShopClothes.WebApi\\ViewModel\\Auth\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:47:40.933Z"
+              "WhenOpened": "2024-04-11T05:46:54.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ReserPasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\ReserPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\ReserPasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\ReserPasswordViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\ReserPasswordViewModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:49:35.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ResetPasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\ResetPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\ResetPasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\ResetPasswordViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\ResetPasswordViewModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:48:01.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LoginWith2faViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\LoginWith2faViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\LoginWith2faViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\LoginWith2faViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\LoginWith2faViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:45:50.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "ShopClothes.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Program.cs",
-              "RelativeToolTip": "ShopClothes.WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T08:48:09.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "RefreshTokenModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\RefreshTokenModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes.WebApi\\ViewModel\\Auth\\RefreshTokenModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\RefreshTokenModel.cs",
-              "RelativeToolTip": "ShopClothes.WebApi\\ViewModel\\Auth\\RefreshTokenModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T07:36:28.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ShopClothes.WebApi\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ShopClothes.WebApi\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:52:20.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "ShopClothes.WebApi\\ViewModel\\Auth\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\LoginResponse.cs",
-              "RelativeToolTip": "ShopClothes.WebApi\\ViewModel\\Auth\\LoginResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T07:40:06.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 4,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ShopClothes.WebApi\\ViewModel\\Auth\\LoginViewModel.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Auth\\LoginViewModel.cs",
               "RelativeToolTip": "ShopClothes.WebApi\\ViewModel\\Auth\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T08:49:09.26Z"
+              "WhenOpened": "2024-04-11T05:45:05.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Domain\\Entity\\AppUser.cs",
-              "RelativeDocumentMoniker": "ShopClothes.Domain\\Entity\\AppUser.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Domain\\Entity\\AppUser.cs",
-              "RelativeToolTip": "ShopClothes.Domain\\Entity\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ShopClothes.WebApi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ShopClothes.WebApi\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T08:20:36.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "ShopClothes.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\appsettings.json",
-              "RelativeToolTip": "ShopClothes.WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-01T09:17:06.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Program.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Program.cs",
-              "RelativeToolTip": "ShopClothes\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T09:36:12.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\appsettings.json",
-              "RelativeDocumentMoniker": "ShopClothes\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\appsettings.json",
-              "RelativeToolTip": "ShopClothes\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-01T09:36:43.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Response.cs",
-              "RelativeDocumentMoniker": "ShopClothes.WebApi\\ViewModel\\Response.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.WebApi\\ViewModel\\Response.cs",
-              "RelativeToolTip": "ShopClothes.WebApi\\ViewModel\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T05:19:31.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Service\\IEmailSender.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Service\\IEmailSender.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Service\\IEmailSender.cs",
-              "RelativeToolTip": "ShopClothes\\Service\\IEmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:35:34.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Service\\EmailSender.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Service\\EmailSender.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Service\\EmailSender.cs",
-              "RelativeToolTip": "ShopClothes\\Service\\EmailSender.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:35:27.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\ProductService.cs",
-              "RelativeDocumentMoniker": "ShopClothes.Application\\Implemetation\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\ProductService.cs",
-              "RelativeToolTip": "ShopClothes.Application\\Implemetation\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:33:39.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\RoleService.cs",
-              "RelativeDocumentMoniker": "ShopClothes.Application\\Implemetation\\RoleService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\RoleService.cs",
-              "RelativeToolTip": "ShopClothes.Application\\Implemetation\\RoleService.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAYwKcAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:31:06.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\UserService.cs",
-              "RelativeDocumentMoniker": "ShopClothes.Application\\Implemetation\\UserService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\Implemetation\\UserService.cs",
-              "RelativeToolTip": "ShopClothes.Application\\Implemetation\\UserService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA5wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:31:02.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ShopClothes\\Models\\AccountViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\Models\\AccountViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "ShopClothes\\Models\\AccountViewModel\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T04:03:09.137Z"
+              "WhenOpened": "2024-04-10T09:09:00.633Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -8857,6 +8857,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "ShopClothes.Application >= 1.0.0",
       "ShopClothes.WebApp >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
@@ -8890,6 +8891,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\ShopClothes.Application.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes.Application\\ShopClothes.Application.csproj"
+            },
             "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\ShopClothes.WebApp.csproj": {
               "projectPath": "C:\\Users\\Admin\\Desktop\\MessageApp\\ShopClothes\\ShopClothes\\ShopClothes.WebApp.csproj"
             }

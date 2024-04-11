@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShopClothes.Application.Interface
 {
-    public class IBlogService
+    public interface IBlogService
     {
     }
 }

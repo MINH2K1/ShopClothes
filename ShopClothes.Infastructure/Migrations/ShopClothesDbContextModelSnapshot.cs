@@ -192,7 +192,6 @@ namespace ShopClothes.Infastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
@@ -204,7 +203,7 @@ namespace ShopClothes.Infastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AppRole");
+                    b.ToTable("AppRoles");
                 });
 
             modelBuilder.Entity("ShopClothes.Domain.Entity.AppUser", b =>
@@ -217,7 +216,6 @@ namespace ShopClothes.Infastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Avatar")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Balance")
@@ -242,7 +240,6 @@ namespace ShopClothes.Infastructure.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FullName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -266,11 +263,20 @@ namespace ShopClothes.Infastructure.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RefreshTokenExpiry")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
+
+                    b.Property<string>("Token")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -563,46 +569,6 @@ namespace ShopClothes.Infastructure.Migrations
                     b.ToTable("Footers");
                 });
 
-            modelBuilder.Entity("ShopClothes.Domain.Entity.Function", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasMaxLength(128)
-                        .IsUnicode(false)
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("IconCss")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
-
-                    b.Property<string>("ParentId")
-                        .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
-
-                    b.Property<int>("SortOrder")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<string>("URL")
-                        .IsRequired()
-                        .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Functions");
-                });
-
             modelBuilder.Entity("ShopClothes.Domain.Entity.Language", b =>
                 {
                     b.Property<int>("Id")
@@ -640,17 +606,25 @@ namespace ShopClothes.Infastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("IsDefault")
-                        .HasColumnType("bit");
+                    b.Property<string>("Alias")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateModified")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
-
-                    b.Property<string>("Resources")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -658,42 +632,6 @@ namespace ShopClothes.Infastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Pages");
-                });
-
-            modelBuilder.Entity("ShopClothes.Domain.Entity.Permission", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("CanCreate")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("CanDelete")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("CanRead")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("CanUpdate")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("FunctionId")
-                        .HasMaxLength(128)
-                        .HasColumnType("int");
-
-                    b.Property<Guid>("RoleId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("FunctionId");
-
-                    b.HasIndex("RoleId");
-
-                    b.ToTable("Permissions");
                 });
 
             modelBuilder.Entity("ShopClothes.Domain.Entity.Product", b =>
@@ -1172,25 +1110,6 @@ namespace ShopClothes.Infastructure.Migrations
                     b.Navigation("Blog");
 
                     b.Navigation("Tag");
-                });
-
-            modelBuilder.Entity("ShopClothes.Domain.Entity.Permission", b =>
-                {
-                    b.HasOne("ShopClothes.Domain.Entity.Function", "Function")
-                        .WithMany()
-                        .HasForeignKey("FunctionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ShopClothes.Domain.Entity.AppRole", "AppRole")
-                        .WithMany()
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppRole");
-
-                    b.Navigation("Function");
                 });
 
             modelBuilder.Entity("ShopClothes.Domain.Entity.Product", b =>
