@@ -280,8 +280,6 @@ namespace ShopClothes.Application.Implemetation
                     product.Content = workSheet.Cells[i, 6].Value.ToString();
                     product.SeoKeywords = workSheet.Cells[i, 7].Value.ToString();
 
-                    product.SeoDescription = workSheet.Cells[i, 8].Value.ToString();
-                    bool.TryParse(workSheet.Cells[i, 9].Value.ToString(), out var hotFlag);
 
                     product.HotFlag = hotFlag;
                     bool.TryParse(workSheet.Cells[i, 10].Value.ToString(), out var homeFlag);
